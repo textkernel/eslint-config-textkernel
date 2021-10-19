@@ -1,0 +1,82 @@
+{
+  "name": "eslint-config-textkernel",
+  "version": "1.0.10",
+  "description": "ESLint shareable config for Textkernel style guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/textkernel/eslint-config-textkernel.git"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "textkernel",
+    "eslint",
+    "shareable config",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "validate",
+    "code style",
+    "strict"
+  ],
+  "author": "Textkernel B.V. <open-source@textkernel.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/textkernel/eslint-config-textkernel/issues"
+  },
+  "homepage": "https://github.com/textkernel/eslint-config-textkernel#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "4.8.2",
+    "@typescript-eslint/parser": "4.8.2",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jest": "24.1.3",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-react": "7.21.5",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "typescript": "4.1.2"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.8.2",
+    "@typescript-eslint/parser": "^4.8.2",
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "typescript": "^4.1.2"
+  },
+  "peerDependenciesMeta": {
+    "@typescript-eslint/parser": {
+      "optional": true
+    },
+    "@typescript-eslint/eslint-plugin": {
+      "optional": true
+    },
+    "typescript": {
+      "optional": true
+    },
+    "eslint-plugin-react": {
+      "optional": true
+    },
+    "eslint-plugin-react-hooks": {
+      "optional": true
+    },
+    "eslint-config-airbnb": {
+      "optional": true
+    }
+  }
+}
