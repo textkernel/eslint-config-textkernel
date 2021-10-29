@@ -19,14 +19,25 @@ npm install eslint-config-textkernel --save-dev
 
 ## Available ESLint configs
 
-### eslint-config-textkernel
+### eslint-config-textkernel/base
 
-The default export contains common rules that are not specific to any framework or environment.
+The base export contains common rules that are not specific to any framework or environment.
 
 ```js
 // eslintrc.js
 module.exports = {
-	extends: [eslint-config-textkernel'],
+	extends: ['eslint-config-textkernel/base'],
+};
+```
+
+### eslint-config-textkernel
+
+The default export that extends `eslint-config-textkernel/base` adding Typescript rules.
+
+```js
+// eslintrc.js
+module.exports = {
+	extends: ['eslint-config-textkernel'],
 };
 ```
 
