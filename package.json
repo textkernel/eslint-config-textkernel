@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-textkernel",
-  "version": "1.0.12",
+  "version": "2.0.0",
   "description": "ESLint shareable config for Textkernel style guide",
   "main": "index.js",
   "scripts": {
