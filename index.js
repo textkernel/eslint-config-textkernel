@@ -33,10 +33,6 @@ module.exports = {
         },
       },
       {
-        selector: "default",
-        format: ["camelCase"],
-      },
-      {
         selector: "memberLike",
         format: ["camelCase", "UPPER_CASE", "snake_case", "PascalCase"],
       },
