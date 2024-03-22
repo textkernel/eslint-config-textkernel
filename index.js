@@ -2,7 +2,7 @@ module.exports = {
   parser: "@typescript-eslint/parser",
   parserOptions: {
     warnOnUnsupportedTypeScriptVersion: false,
-    ecmaVersion: 2018,
+    ecmaVersion: 'latest',
     sourceType: "module",
   },
   extends: [
@@ -31,10 +31,6 @@ module.exports = {
           regex: "^I[A-Z]",
           match: false,
         },
-      },
-      {
-        selector: "default",
-        format: ["camelCase"],
       },
       {
         selector: "memberLike",
