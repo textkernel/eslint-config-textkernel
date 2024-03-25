@@ -20,7 +20,7 @@ npm install @textkernel/eslint-config --save-dev
 3. Install yarn [@textkernel/eslint-config](https://github.com/textkernel/eslint-config-textkernel):
 
 ```sh
-yarn add --dev install @textkernel/eslint-config
+yarn add --dev @textkernel/eslint-config
 ```
 
 
