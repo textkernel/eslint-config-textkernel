@@ -83,7 +83,7 @@ git pull
 ```
 4. Log in to the npm registry:
  ```sh
-npm logi
+npm login
 ```
 5. Publish the library to npm:
 ```sh
